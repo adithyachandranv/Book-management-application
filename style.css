@@ -1,48 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
-
-body {
-    margin: 0;
-    background-color: antiquewhite;
-    font-family: 'Poppins', sans-serif;
-}
-
-#main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 70px;
-}
-
-#main-container {
-    border-radius: 20px;
-    height: 400px;
-    width: 400px;
-    background-color: rgb(0, 86, 69);
-    padding-top: 50px;
-    padding-left: 30px;
-}
-
-.button {
-    height: 20px;
-    width: 40px;
-    padding: 10px;
-    background-color: red;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-#inner-buttons {
-    padding-top: 30px;
-    margin: 10px;
-
-}
-
-#left-button {
-    position: absolute;
-}
-
-#right-button {
-    position: absolute;
-    padding-left: 170px;
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/Poppins/Poppins-Bold.ttf') format('ttf');
+    /* Add additional formats if needed, like woff2, ttf, etc. */
 }
